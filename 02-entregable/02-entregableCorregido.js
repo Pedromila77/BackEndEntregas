@@ -37,9 +37,9 @@ class ProductManager {
         if (index !== -1) {
             this.products[index] = updatedProduct;
             this.writeProducts();
-            return true; // Indicar que la actualización fue exitosa
+            return true; 
         }
-        return false; // Indicar que el producto no fue encontrado
+        return false; 
     }
 
     deleteProduct(id) {
@@ -47,9 +47,9 @@ class ProductManager {
         if (index !== -1) {
             this.products.splice(index, 1);
             this.writeProducts();
-            return true; // Indicar que la eliminación fue exitosa
+            return true; 
         }
-        return false; // Indicar que el producto no fue encontrado
+        return false;
     }
 
     getProductById(id) {
@@ -68,11 +68,7 @@ productManager.addProduct(`Gallo Oro`, `Arroz Fino`, `$500`, `Sin Imagen`, `20`)
 productManager.addProduct(`Amanda`, `Arroz`, `$400`, `Sin Imagen`, `10`);
 productManager.writeProducts(this.path, this.products)
 
-
-
 console.log(productManager.getProducts());
-
-
 console.log(productManager.getProductById(1));
 console.log(productManager.getProductById(2));
 console.log(productManager.getProductById(3));

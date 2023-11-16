@@ -1,0 +1,18 @@
+[
+	{
+		"code": 1,
+		"title": "Gallo Oro",
+		"description": "Arroz Fino",
+		"price": "$500",
+		"thumbnail": "Sin Imagen",
+		"stock": "20"
+	},
+	{
+		"code": 2,
+		"title": "Amanda",
+		"description": "Arroz",
+		"price": "$400",
+		"thumbnail": "Sin Imagen",
+		"stock": "10"
+	}
+]
